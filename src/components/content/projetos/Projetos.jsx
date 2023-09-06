@@ -14,7 +14,7 @@ export default props=> {
   useEffect(() => {
     const fetchProjetos = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/api/projetos')
+        const response = await axios.get('https://meu-site-api.onrender.com/api/projetos')
         setProjetos(response.data)
       } catch (error) {
         console.error('Erro ao buscar projetos:', error)

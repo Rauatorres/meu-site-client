@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 
 export default props => {
-    var imgPath = `http://localhost:3001/projetos_img/${props.img}`
+    var imgPath = `https://meu-site-api.onrender.com/projetos_img/${props.img}`
 
     function mostrarProjetoTecnologias(){
         if(props.tecnologias.length > 0){

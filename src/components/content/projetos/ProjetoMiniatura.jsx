@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default props=> {
-    const imgPath = `http://localhost:3001/projetos_img/${props.img}`
+    const imgPath = `https://meu-site-api.onrender.com/projetos_img/${props.img}`
     return (
         <div className='ProjetoMiniatura' onClick={props.click}>
             <img className='ProjetoMiniaturaImg' src={imgPath} alt="Imagem" />

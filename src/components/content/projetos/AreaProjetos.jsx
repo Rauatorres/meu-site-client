@@ -6,7 +6,7 @@ export default props=>{
     const [projetosLista, setProjetosLista] = useState([])
 
     async function getProjetosLista(){
-        let res = await axios.get('http://localhost:3001/api/projetos')
+        let res = await axios.get('https://meu-site-api.onrender.com/api/projetos')
         setProjetosLista(res.data)
     }
 
