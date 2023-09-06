@@ -14,6 +14,7 @@ export default props=> {
   useEffect(() => {
     const fetchProjetos = async () => {
       try {
+        //correção
         const response = await axios.get('https://meu-site-api.onrender.com/api/projetos')
         setProjetos(response.data)
       } catch (error) {
