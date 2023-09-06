@@ -1,0 +1,224 @@
+.ContatoSecao{
+    background-image: linear-gradient(#960000, #800202);
+    color: white;
+    padding: 0.1px;
+}
+
+.ContatoTitulo{
+    font-size: 2.7rem;
+}
+.ContatoTitulo, .ContatoOpcoesTitulo{
+    width: fit-content;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.ContatoRow{
+    margin-bottom: 5rem;
+}
+.ContatoFormulario{
+    width: 80vw;
+    margin: 2rem auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+.FormRow{
+    margin-bottom: 1.5rem;
+}
+.MsgRow{
+    margin: 2rem 0;
+    margin-top: 2.5 rem;
+}
+.FormInput{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    color: white;
+}
+.FormInput:active{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.FormInput:focus{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: none;
+    border-color: white;
+    color: white;
+}
+.FormInput::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+.Submit{
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1.7rem;
+}
+
+.ContatoOpcoesIconeGrandeArea{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5rem;
+    padding: 1.5rem 2.3rem;
+    border-radius: 20rem;
+    display: flex;
+    align-items: center;
+}
+.ContatoOpcoesIconeGrande{
+    font-size: 3rem;
+}
+.ContatoOpcoes{
+    margin-bottom: 5rem;
+}
+.ContatoOpcao{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 87vw;
+    font-size: 0.9rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+.ContatoOpcao:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ContatoOpcao:hover .ContatoOpcaoCopiar{
+    display: inline;
+}
+.ContatoOpcaoIcone{
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+}
+.ContatoOpcaoTexto{
+    margin: 0 0.3rem;
+}
+.ContatoOpcaoCopiar{
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+.ContatoOpcaoCopiar:hover{
+    color: white;
+    cursor: pointer;
+}
+.ContatoOpcaoMsgCopiado{
+    position: absolute;
+    right: 10vw;
+    padding: 0.5rem 1rem;
+    border-radius: 10rem;
+    background-color: rgba(0, 0, 0, 0);
+    /* background-color: red; */
+    color: rgba(0, 0, 0, 0) ;
+    transition: background-color 1s, color 1s;
+    display: none;
+}
+
+.ContatoOpcaoMsgCopiadoAparecer{
+    background-color: rgba(0, 0, 0, 0.588);
+    display: block;
+    /* background-color: red; */
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+@media (min-width: 576px) {
+    .ContatoTitulo{
+        font-size: 4rem;
+    }
+
+    .ContatoFormulario{
+        width: 37vw;
+    }
+
+    .ContatoOpcoesTitulo{
+        margin: 1rem auto;
+        font-size: 1.5rem;
+    }
+    .ContatoOpcoesIconeGrandeArea{
+        padding: 1rem 1.5rem;
+        margin-bottom: 0;
+    }
+    .ContatoOpcoesIconeGrande{
+        font-size: 2.3rem;
+    }
+    .ContatoOpcao{
+        width: 40vw;
+        font-size: 0.7rem;
+    }
+    .ContatoOpcaoIcone, .ContatoOpcaoCopiar{
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 902px) {
+    .ContatoFormulario{
+        width: 33vw;
+    }
+
+    .ContatoOpcao{
+        width: 30vw;
+        font-size: 0.7rem;
+    }
+    .ContatoOpcoesIconeGrandeArea{
+        margin: 2rem auto;
+    }
+}
+@media (min-width: 1051px){
+    .ContatoFormulario{
+        width: 30vw;
+    }
+    .FormInput, .Submit{
+        font-size: 1rem;
+    }
+
+    .ContatoOpcoesIconeGrandeArea{
+        padding: 1.3rem 1.8rem;
+        margin-bottom: 0;
+    }
+    .ContatoOpcoesIconeGrande{
+        font-size: 2.6rem;
+    }
+    .ContatoOpcao{
+        font-size: 0.9rem;
+    }
+    .ContatoOpcaoIcone, .ContatoOpcaoCopiar{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 1239px) {
+    .ContatoFormulario{
+        width: 32vw;
+    }
+    .FormRow{
+        margin-bottom: 2rem;
+    }
+    .MsgRow{
+        margin: 3rem 0;
+        margin-top: 3.5rem;
+    }
+    .FormInput, .Submit{
+        font-size: 1.5rem;
+    }
+    .Submit{
+        margin-bottom: 1.7rem;
+    }
+
+    .ContatoOpcoesTitulo{
+        font-size: 2.4rem;
+    }
+    .ContatoOpcoesIconeGrandeArea{
+        padding: 1.7rem 2.4rem;
+        margin: 4rem auto;
+    }
+    .ContatoOpcoesIconeGrande{
+        font-size: 3rem;
+    }
+    .ContatoOpcao{
+        font-size: 1.3rem;
+        width: 33vw;
+        margin: 2.5rem auto;
+    }
+    .ContatoOpcaoIcone, .ContatoOpcaoCopiar{
+        font-size: 1.7rem;
+    }
+}

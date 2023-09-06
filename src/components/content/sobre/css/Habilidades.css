@@ -1,0 +1,73 @@
+.SobreHabilidadesSection{
+    background-image: linear-gradient(#040404, #222222);
+    color: white;
+    padding: 0.1px;
+}
+
+.SobreHabilidadesTitulo{
+    width: fit-content;
+    max-width: 70vw;
+    text-align: center;
+    margin: 7rem auto;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.Habilidade{
+    background-color: #282828d0;
+    width: 70vw;
+    margin: 4rem auto;
+    padding: 2rem 0;
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.51);
+}
+.HabilidadeIcone{
+    width: fit-content;
+    margin: auto;
+    font-size: 3rem;
+}
+.HabilidadeTexto{
+    font-size: 1.5rem;
+    width: 60vw;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .HabilidadesArea{
+        display: flex;
+        width: 90vw;
+        margin: auto;
+        margin-bottom: 10rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Habilidade{
+        width: 40vw;
+        height: 20rem;
+        margin: 2rem 2vw;
+    }
+    .HabilidadeTexto{
+        width: 30vw;
+        font-size: 1rem;
+    }
+}
+@media (min-width: 992px) {
+    .HabilidadesArea{
+        width: 100vw;
+    }
+    .Habilidade{
+        width: 25vw;
+        height: 25rem;
+    }
+    .HabilidadeTexto{
+        width: 20vw;
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 1200px) {
+    .HabilidadeTexto{
+        font-size: 1.5rem;
+    }
+}

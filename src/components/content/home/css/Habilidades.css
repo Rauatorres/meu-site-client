@@ -1,0 +1,41 @@
+.HabilidadesSection{
+    position: relative;
+    color: white;
+    background-color: black;
+    padding: 3rem 2rem;
+    z-index: -2;
+}
+.ImagemDeFundo{
+    content: "";
+    background-image: url('../../../../../public/img/HabilidadesBGImg9.jpg');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+}
+.HabilidadesTitulo{
+    margin: 2rem auto;
+    width: fit-content;
+    font-size: 3rem;
+    z-index: 1;
+}
+.HabilidadesArea{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    padding: 0.1px;
+    z-index: 1;
+}
+.Habilidade{
+    margin: 3rem 0;
+    padding: 1rem 0.7rem;
+}
+.HabilidadeIcone{
+    font-size: 3.7rem;
+}
+.HabilidadeTexto{
+    margin-top: 1rem;
+}

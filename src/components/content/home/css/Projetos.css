@@ -1,0 +1,355 @@
+.ProjetosSection{
+    background-image: linear-gradient(#4F4F4F, #0D0D0D);
+    color: white;
+    padding: 0.1px 0;
+}
+
+.HomeProjetosTitulo{
+    width: fit-content;
+    margin: 4rem auto;
+    font-size: 2.7rem;
+}
+
+.HomeProjetosImgArea{
+    /* background-color: blue; */
+    width: 90vw;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+.HomeProjetoImgDiv0, .HomeProjetoImgDiv1, .HomeProjetoImgDiv2{
+    /* background-color: red; */
+    width: fit-content;
+    position: relative;
+    margin: 0 1vw;
+    /* margin-right: 10rem; */
+    /* margin-top: 2rem; */
+    transition: left 0.5s;
+}
+.HomeProjetoImgDiv0{
+    left: 0vw;
+}
+.HomeProjetoImgDiv1{
+    left: -72vw;
+}
+.HomeProjetoImgDiv2{
+    left: -144vw;
+}
+.HomeProjetoImg{
+    filter: opacity(50%);
+    width: 70vw;
+    transition: width 0.5s;
+}
+.HomeProjetoImgSelecionado img, .HomeProjetoImg:hover{
+    filter: opacity(100%);
+}
+
+.HomeProjetoImgSelecionado img{
+    width: 88vw;
+}
+.HomeProjetoImg:hover{
+    cursor: pointer;
+}
+
+.HomeProjetosAreaSeletor{
+    /* background-color: red; */
+    width: 80vw;
+    /* height: 5px; */
+    margin: 2rem auto;
+    display: flex;
+}
+.HomeProjetosSeletor{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 5px;
+    margin: 0 0.1rem;
+    border-radius: 1rem;
+}
+.HomeProjetosSeletorSelecionado{
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+
+.HomeProjeto{
+    /* background-color: red; */
+    width: fit-content;
+    margin: auto;
+    /* background-color: blue; */
+}
+.HomeProjetoTitulo, .HomeProjetoDesc{
+    text-align: center;
+    /* background-color: red; */
+    margin: 2rem auto;
+    color: rgba(0, 0, 0, 0);
+    transition: color 2s;
+}
+.HomeProjetoTitulo{
+    width: 60vw;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.HomeProjetoDesc{
+    width: 65vw;
+    font-size: 1.2rem;
+    /* background-color: red; */
+    height: 15vh;
+    word-wrap: break-word;
+}
+.HomeProjetoBotaoVer, .HomeProjetosBotao{
+    width: 65vw;
+    font-size: 1.2rem;
+}
+.HomeProjetoBotaoVer{
+    font-weight: 700;
+    border-width: 3px;
+}
+.HomeProjetosBotao{
+    display: block;
+    margin: 1rem auto;
+    margin-bottom: 20vh;
+}
+
+.HomeProjetoAparecer{
+    color: white;
+    /* filter: opacity(0); */
+    /* transition: color 0.5s, filter 0.5s; */
+}
+
+@media (min-width: 576px) {
+    
+
+    .HomeProjetosCol1{
+        /* background-color: red; */
+        width: 30vw;
+        padding: 0;
+    }
+    .HomeProjetosImgArea{
+        width: 30vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+    .HomeProjetoImg{
+        width: 24vw;
+    }
+    .HomeProjetoImgSelecionado img{
+        width: 30vw;
+    }
+
+    .HomeProjetosAreaSeletor{
+        display: none;
+    }
+
+    .HomeProjetosCol2{
+        /* background-color: green; */
+        
+    }
+    .HomeProjeto{
+        /* background-color: gold; */
+    }
+    .HomeProjetoTitulo, .HomeProjetoDesc{
+        /* background-color: red; */
+    }
+    .HomeProjetoTitulo{
+        width: 30vw;
+        font-size: 1.5rem;
+        margin: auto;
+        margin-top: 2vw;
+    }
+    .HomeProjetoDesc{
+        font-size: 1rem;
+        width: 40vw;
+    }
+
+    .HomeProjetoBotaoVer, .HomeProjetosBotao{
+        width: 40vw;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 618px) {
+    .HomeProjetoRow{
+        margin-bottom: 7rem;
+    }
+
+    .HomeProjetosImgArea{
+        width: 27vw;
+        height: 45vw;
+    }
+
+    
+    .HomeProjetoImg{
+        width: 20vw;
+    }
+    .HomeProjetoImgSelecionado img{
+        width: 27vw;
+    }
+
+    .HomeProjetosBotao{
+        margin: 1.5rem auto;
+    }
+}
+
+@media (min-width: 718px) {
+    .HomeProjetosTitulo{
+        font-size: 4rem;
+        margin: 8rem auto;
+    }
+
+    .HomeProjetosImgArea{
+        /* background-color: blue; */
+        width: 35vw;
+        height: 60vw;
+    }
+
+    .HomeProjetoImg{
+        width: 25vw;
+    }
+    .HomeProjetoImgSelecionado img{
+        width: 35vw;
+    }
+
+    .HomeProjetoTitulo{
+        /* width: 30vw; */
+        font-size: 3rem;
+    }
+    .HomeProjetoDesc{
+        width: 40vw;
+        height: 20vw;
+        font-size: 1.5rem;
+    }
+
+    
+    .HomeProjetoBotaoVer, .HomeProjetosBotao{
+        width: 40vw;
+        font-size: 1.5rem;
+    }
+    .HomeProjetosBotao{
+        margin: 2rem auto;
+    }
+}
+
+@media (min-width: 896px) {
+    
+    
+    .HomeProjetosImgArea{
+        height: 53vw;
+    }
+
+    .HomeProjetoBotaoVer, .HomeProjetosBotao{
+        font-size: 1.7rem;
+    }
+    .HomeProjetosBotao{
+        margin: 2rem auto;
+    }
+}
+
+@media (min-width: 1120px) {
+    .HomeProjetoTitulo{
+        font-size: 4rem;
+    }
+    .HomeProjetoDesc{
+        font-size: 2rem;
+        height: 20vw;
+        width: 35vw;
+    }
+    .HomeProjetoBotaoVer, .HomeProjetosBotao{
+        font-size: 2rem;
+        width: 35vw;
+    }
+
+    .HomeProjetosBotao{
+        margin: 3rem auto;
+    }
+}
+
+/* .IconeProjetos{
+    background-color: rgba(114, 21, 206, 0.3);
+}
+
+.HomeProjetosArea{
+    margin-top: 5rem;
+}
+
+.AreaSelecaoProjeto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.AreaSelecaoBotaoPassar{
+    font-size: 1.5rem;
+}
+.AreaBotoesSelecaoProjeto{
+    background-color: rgba(97, 97, 97, 0.5);
+    display: flex;
+    width: 75vw;
+    overflow-x: scroll;
+    margin: auto;
+}
+.ProjetoBotaoSelecao{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    transition: color 0.5s, background-color 0.5s;
+}
+.ProjetoBotaoSelecaoAtual{
+    background-color: white;
+    color: black;
+}
+
+.HomeProjeto{
+    width: 75vw;
+    padding: 1rem 2.5vw;
+    padding-bottom: 2rem;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top: 3px solid white;
+}
+.HomeProjetoImg{
+    width: 70vw;
+    height: 45vw;
+    transition: filter 0.5s;
+}
+.HomeProjetoDesc{
+    padding: 1rem;
+    font-size: 0.8rem;
+    height: 6rem;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: scroll;
+    transition: color 0.5s;
+}
+.HomeProjetoBotaoVer{
+    border: 2px solid white;
+    display: block;
+    margin: auto;
+    border-radius: 0.7rem;
+    padding: 0.5rem 1rem;
+    transition: opacity 1s;
+}
+
+.HomeProjetoDesaparecer{
+    color: rgba(0, 0, 0, 0);
+    filter: opacity(0);
+    transition: color 0.5s, filter 0.5s;
+}
+
+.HomeProjetosBotao{
+    display: block;
+    width: 75vw;
+    margin: 3rem auto;
+    margin-bottom: 8rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    background-color: #6110b2b0;
+} */

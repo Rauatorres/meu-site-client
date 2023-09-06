@@ -1,0 +1,22 @@
+.IconeSecao{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: auto;
+    padding: 2.3rem 2rem;
+    border-radius: 20rem;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+@media (min-width: 735px) {
+    .IconeSecao{
+        font-size: 4rem;
+        padding: 2.7rem 2.3rem;
+    }
+}
+@media (min-width: 964px) {
+    .IconeSecao{
+        font-size: 5rem;
+        padding: 3rem 2.6rem;
+    }
+}

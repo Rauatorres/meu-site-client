@@ -1,0 +1,404 @@
+.HomeTecnologiasSection{
+    padding: 0.1px 0;
+    background-image: linear-gradient(#060606, #212121);
+    color: white;
+}
+
+.HomeTecnologiasSecaoTitulo{
+    width: 90vw;
+    margin: 2rem auto;
+    margin-top: 4rem;
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.HomePalavraJavascript{
+    color: #FF4646;
+}
+
+.TecnologiasRow{
+    /* background-color: red; */
+    margin: 1rem 0;
+}
+.TecnologiasColIcone{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin: 3rem auto;
+}
+.HomeTecnologiasImg{
+    /* background-color: red; */
+    display: block;
+    width: 40vw;
+    margin: 3rem auto;
+}
+.HomeTecnologiasDescricao{
+    font-size: 1.4rem;
+    width: 80vw;
+    margin: 1rem auto;
+    text-align: center;
+}
+.TecnologiasColArea{
+}
+
+.HomeTecnologiasIcone{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: auto;
+    padding: 2.3rem 2rem;
+    border-radius: 20rem;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.HomeTecnologiasArea{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1.5rem;
+    margin: 0;
+    margin-top: 5rem; */
+    /* background-color: red; */
+    /* position: relative; */
+    /* top: 100px; */
+    /* width: 80vw;
+    height: 100vw;
+    margin: 3rem auto;
+    border-radius: 0.7rem;
+    overflow: auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap; */
+    margin: 5rem auto;
+    margin-bottom: 10rem;
+}
+.HomeTecnologiasBotao{
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.5s;
+}
+.HomeTecnologiasBotao:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.TecnologiasTipoArea{
+    /* background-color: blue; */
+    margin: 3rem 0;
+}
+
+.TecnologiasArea{
+    /* width: fit-content;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem 2.3rem;
+    border-radius: 1rem; */
+    display: flex;
+    /* background-color: blue; */
+    width: 100vw;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.TecnologiasArea::-webkit-scrollbar{
+    display: none;
+}
+
+.TecnologiasTipoTitulo{
+    font-size: 1.3rem;
+    margin: 0rem 2rem;
+    font-weight: 320;
+    /* background-color: red; */
+}
+
+.Tecnologia{
+    /* width: 10rem; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background-color: red;
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    transition: border-left 0.1s, background-color 1s; */
+    background-color: #4F4F4F;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.576);
+    display: flex;
+    align-items: center;
+    margin: 2rem 1.5rem;
+    min-width: 18rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+}
+/* .Tecnologia:hover{
+    border-left: 5px solid white;
+} */
+.TecnologiaImgArea{
+    /* background-color: #4b4b4b; */
+    /* width: 3rem; */
+    /* height: 3rem; */
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+}
+.TecnologiaImg{
+    width: 2.5rem;
+    height: 2.5rem;
+    /* margin-right: 0.5rem; */
+    display: block;
+    transition: filter 1s;
+}
+.TecnologiaNome{
+    width: fit-content;
+    margin: 0.5rem 0;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 350;
+    transition: color 1s;
+    color: white;
+}
+.TecnologiaDesaparecer{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    filter: opacity(0);
+    transition: background-color 1s, color 1s, filter 1s;
+}
+.TecnologiasAreaDeslize, .TecnologiasAreaDeslizeVertical{
+    width: fit-content;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.6);
+}
+.TecnologiasPalavraDeslize{
+    margin: 0 1rem;
+    /* background-color: red; */
+}
+.TecnologiasAreaDeslizeVertical{
+    display: none;
+}
+
+.TecnologiasAreaPontos{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    /* margin-bottom: 5rem; */
+}
+.TecnologiasPonto{
+    background-color: rgba(139, 138, 140, 0.8);
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem 0.7rem;
+    border-radius: 10rem;
+    transition: background-color 0.5s;
+}
+.TecnologiasPonto:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+.TecnologiasPontoAtivo{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem 0.7rem;
+    border-radius: 1rem;
+    transition: background-color 0.5s;
+}
+.HomeTecnologiasBottom{
+    background: linear-gradient(#C00E02, #AF0B00);
+    height: 200px;
+}
+@media (min-width: 576px) {
+    .HomeTecnologiasSecaoTitulo{
+        margin: 4rem auto;
+    }
+    .HomeTecnologiasImg{
+        width: 20vw;
+    }
+    .HomeTecnologiasDescricao{
+        width: 30vw;
+        font-size: 1rem;
+    }
+    .HomeTecnologiasArea{
+        margin-top: 0;
+        width: fit-content;
+        margin: 3rem auto;
+        margin-bottom: 7rem;
+    }
+    .TecnologiasArea{
+        width: 40vw;
+    }
+    .TecnologiasTipoArea{
+        margin: 2rem 0;
+    }
+    .TecnologiasTipoTitulo{
+        font-size: 1rem;
+    }
+    .Tecnologia{
+        min-width: 13rem;
+        padding: 0.3rem 1rem;
+        margin: 1.3rem 1.5rem;
+    }
+    .TecnologiaImgArea{
+        width: fit-content;
+        height: fit-content;
+    }
+    .TecnologiaImg{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    .TecnologiaNome{
+        font-size: 1rem;
+    }
+    .TecnologiasAreaDeslize{
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 768px) {
+    .TecnologiasArea{
+        width: 35vw;
+    }
+}
+@media (min-width: 992px) {
+    .HomeTecnologiasImg{
+        width: 13vw;
+    }
+    .HomeTecnologiasDescricao{
+        width: 25vw;
+    }
+    .HomeTecnologiasArea{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50vw;
+        margin-left: 5vw;
+    }
+    .TecnologiasTipoArea{
+        margin: 0;
+        margin-bottom: 5vh;
+    }
+    .TecnologiasAreaDeslize{
+        display: none;
+    }
+    .TecnologiasAreaDeslizeVertical{
+        display: block;
+    }
+    .TecnologiasArea{
+        display: block;
+        width: 25vw;
+        height: 6rem;
+    }
+    .Tecnologia{
+        min-width: 10rem;
+    }
+}
+/* @media (min-width: 520px) {
+    .HomeTecnologiasSecaoTitulo{
+        font-size: 4rem;
+    }
+
+    .TecnologiasRow{
+        margin-top: 5rem;
+    }
+    .HomeTecnologiasArea{
+        width: 45vw;
+        height: 30vw;
+    }
+}
+@media (min-width: 686px) {
+    .HomeTecnologiasArea{
+        width: 60vw;
+    }
+    .Tecnologia{
+        width: 23vw;
+        margin: 1rem;
+    }
+    
+}
+@media (min-width: 896px) {
+    .HomeTecnologiasArea{
+        width: 52vw;
+        height: 27vw;
+    }
+    .Tecnologia{
+        width: 20vw;
+    }
+    .TecnologiaNome{
+        font-size: 1.1rem;
+    }
+    .TecnologiaImg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+@media (min-width: 1120px){
+    .HomeTecnologiasArea{
+        width: 45vw;
+        height: 22vw;
+    }
+    .Tecnologia{
+        width: 17vw;
+    }
+    .TecnologiasRow{
+        padding-right: 5rem;
+    }
+} */
+/* @media (min-width: 590px) {
+    .HomeTecnologiasSecaoTitulo{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .HomeTecnologiasIcone{
+        width: 20vw;
+        height: 20vw;
+    }
+    .HomeTecnologiasArea{
+        margin-top: 3rem;
+    }
+    .TecnologiasArea{
+        margin: 0 2rem;
+    }
+    .Tecnologia{
+        width: 30vw;
+    }
+}
+@media (min-width: 665px) {
+    .TecnologiaNome{
+        font-size: 1.5rem;
+    }
+    .TecnologiaImg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+@media (min-width: 800px) {
+    .Tecnologia{
+        margin: 2rem 0;
+        padding: 0.4rem 1rem;
+    }
+    .HomeTecnologiasBotao{
+        font-size: 4rem;
+    }
+    .TecnologiasPonto, .TecnologiasPontoAtivo{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 1.5rem 1rem;
+    }
+}
+@media (min-width: 964px) {
+    .HomeTecnologiasSecaoTitulo{
+        font-size: 4rem;
+    }
+    .Tecnologia{
+        margin: 2.5rem 0;
+    }
+    .TecnologiaNome{
+        font-size: 1.7rem;
+    }
+    .TecnologiaImg{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+}
+@media (min-width: 1066px) {
+    .TecnologiasRow{
+        margin: 5rem 5vw;
+    }
+} */

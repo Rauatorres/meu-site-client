@@ -1,0 +1,26 @@
+.Navbar{
+  box-shadow: none;
+  width: 100vw;
+  z-index: 1;
+  background-color: #393939;
+}
+.navbar-brand{
+  color: white;
+}
+.MenuButton{
+  border: none;
+
+}
+.MenuButton:active{
+  box-shadow: none;
+
+}
+.MenuButton:focus{
+  box-shadow: none;
+}
+
+.NavLink{
+  text-align: right;
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.8  );
+}

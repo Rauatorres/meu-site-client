@@ -1,0 +1,143 @@
+.HomeSecaoFormacao{
+    /* background-color: red; */
+    padding: 0.1px;
+    background-image: linear-gradient(rgb(244, 28, 100), rgb(255, 105, 68), rgb(246, 16, 43));
+}
+.FormacaoTitulo{
+    /* background-color: blue; */
+    width: fit-content;
+    margin: 5rem auto;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+.FormacaoArea{
+    /* background-color: green; */
+    margin-top: 8rem;
+}
+
+.FormacaoCard{
+    width: 80vw;
+    margin: 6rem auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 1px 15px 3px;
+}
+.FormacaoCardIcone{
+    /* background-color: purple; */
+    background-color: rgb(72, 6, 148);
+
+    width: fit-content;
+    margin: auto;
+    color: white;
+    font-size: 2.5rem;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.5rem 3rem; */
+    /* text-align: center; */
+    position: relative;
+    top: -2.5rem;
+    border-radius: 100px;
+}
+.FormacaoCardTitulo{
+    /* background-color: aqua; */
+    width: fit-content;
+    position: relative;
+    top: -1rem;
+    margin: auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.FormacaoAcademicaTituloGraduacao{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 370;
+}
+.FormacaoAcademicaGraduacaoDesc, .ExperienciaLista{
+    list-style-type: none;
+    padding: 0;
+}
+.FormacaoAcademicaGraduacaoDesc{
+    font-size: 1.1rem;
+    font-weight: 320;
+    margin: 2rem auto;
+}
+.FormacaoAcademicaGraduacaoDesc li{
+    text-align: center;
+    margin: 1rem auto;
+}
+.FormacaoAcademicaGraduacaoIcone{
+    margin-right: 0.3rem;
+}
+.IconeStatusCurso{
+    color: rgb(23, 206, 23);
+}
+.IconeUniversidade{
+    color: rgb(9, 168, 225);
+}
+
+.CursoTitulo, .CursoPlataforma{
+    /* background-color: red; */
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+.CursoLinks{
+    color: inherit;
+    text-decoration: inherit;
+    
+}
+.CursoTitulo{
+    font-weight: 370;
+    color: rgb(72, 6, 148);
+}
+.CursoPlataforma{
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+.LinkPlataforma{
+    font-weight: 450;
+    color: rgb(72, 6, 148);
+}
+
+.ExperienciaLista{
+    margin-bottom: 2rem;
+}
+.ExperienciaTitulo{
+    font-weight: 370;
+}
+.ExperienciaItemLista{
+    font-weight: 280;
+}
+.ExperienciaItemTitulo{
+    font-weight: 370;
+}
+
+.Idioma{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.Idioma span{
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+.IdiomaNome{
+    font-weight: 400;
+}
+
+.IdiomaNivel{
+    font-size: 0.8rem !important;
+}
+.Nativo{
+    color: rgb(252, 49, 26);
+}
+.Fluente{
+    color: rgb(4, 62, 170);
+}

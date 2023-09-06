@@ -1,0 +1,217 @@
+.ProjetosSecao{
+    background-image: linear-gradient(#393939, #040404);
+    padding: 0.1px 0;
+    color: white;
+}
+
+.ProjetosSecaoTitulo{
+    font-size: 2.5rem;
+    width: fit-content;
+    margin: 4rem auto;
+    margin-bottom: 6rem;
+    font-weight: 300;
+}
+
+.Projeto{
+    margin-bottom: 3rem;
+}
+.ProjetoImg{
+    width: 80vw;
+    margin: auto;
+    display: block;
+    transition: filter 0.5s;
+}
+.ProjetoTitulo{
+    width: 70vw;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 2rem;
+    transition: color 0.5s;
+}
+.ProjetoDesc{
+    font-size: 1.3rem;
+    width: 75vw;
+    margin: 1rem auto;
+    height: 10rem;
+    overflow-y: auto;
+    text-align: center;
+    word-wrap: break-word;
+    transition: color 0.5s;
+}
+.ProjetoBotao{
+    width: 50vw;
+    display: block;
+    margin: auto;
+    font-size: 1.2rem;
+    border-width: 3px;
+}
+.ProjetoTecnologiasArea{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ProjetoTecnologia{
+    background-color: white;
+    color: black;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.ProjetoTransicao .ProjetoImg, .ProjetoTransicao .ProjetoTitulo, .ProjetoTransicao .ProjetoDesc, .ProjetoTransicao .ProjetoTecnologia{
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    filter: opacity(0%);
+    transition: color 0.5s, background-color 0.5s, filter 0.5s;
+}
+
+.ProjetosSelecaoArea{
+    width: 80vw;
+    height: 10rem;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.117);
+    margin: 3rem auto;
+    padding: 0.1px 0;
+    border-radius: 0.7rem;
+}
+.ProjetoMiniatura{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 100%;
+}
+.ProjetoMiniaturaImg{
+    width: 30vw;
+}
+.ProjetoMiniaturaTituloArea{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ProjetoMiniaturaTitulo{
+    font-size: 0.8rem;
+    height: fit-content;
+    max-width: 30vw;
+}
+
+@media (min-width: 576px) {
+    /* .AreaProjetos{
+        background-color: gold;
+        margin: 0;
+        width: 100vw !important;
+    } */
+    .AreaProjeto{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    .Projeto{
+        width: 100vw;
+        padding: 0;
+        margin-bottom: 7rem;
+    }
+    .ProjetoImg, .ProjetoTitulo, .ProjetoDesc{
+        width: 40vw;
+        margin: auto;
+    }
+    .ProjetoTitulo{
+        font-size: 1.5rem;
+    }
+    .ProjetoDesc{
+        margin-top: 0.8rem;
+        font-size: 0.8rem;
+        height: 5rem;
+    }
+    .ProjetoBotao{
+        width: 40vw;
+    }
+    .ProjetoTecnologiasArea{
+        margin-bottom: 0;
+    }
+    .ProjetosSelecaoArea{
+        width: 70vw;
+        height: 12rem;
+        margin-top: 0 !important;
+    }
+    .ProjetoMiniaturaImg{
+        width: 25vw;
+    }
+    .ProjetoMiniaturaTituloArea{
+        width: 35vw;
+    }
+    .Row{
+        /* background-color: aquamarine; */
+        width: 100vw;
+        margin: 0;
+    }
+    .Col1, .Col2{
+        width: 50vw;
+        margin-bottom: 3rem;
+    }
+    .Col1{
+        /* background-color: red; */
+    }
+    .Col2{
+        /* background-color: blue; */
+    }
+}
+@media (min-width: 768px) {
+    .ProjetoTitulo{
+        font-size: 1.7rem;
+    }
+    .ProjetoDesc{
+        font-size: 1rem;
+        height: 7rem;
+    }
+    .ProjetoBotao{
+        font-size: 1.7rem;
+    }
+    .ProjetosSelecaoArea{
+        height: 15rem;
+    }
+    .ProjetoMiniatura{
+        margin: 3rem auto;
+    }
+    .ProjetoMiniaturaTitulo{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 992px) {
+    .ProjetoTitulo{
+        font-size: 2rem;
+    }
+    .ProjetoDesc{
+        font-size: 1.3rem;
+        margin-top: 1.2rem;
+        height: 8rem;
+    }
+    .ProjetoBotao{
+        width: 30vw;
+        margin: 2rem auto;
+    }
+    .ProjetosSelecaoArea{
+        width: 60vw;
+        height: 20rem;
+    }
+    .ProjetoMiniaturaImg{
+        width: 20vw;
+    }
+    .ProjetoMiniaturaTituloArea{
+        width: 30vw;
+    }
+}
+@media (min-width: 1200px) {
+    .ProjetoImg{
+        width: 35rem;
+    }
+    .ProjetoDesc{
+        height: 10rem;
+    }
+    .Col1, .Col2{
+        margin-bottom: 5rem;
+    }
+}
