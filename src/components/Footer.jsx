@@ -9,18 +9,23 @@ import './css/Footer.css'
 
 export default props=>
 <footer>
-  <div className='FooterRedes'>
-    <h3 className='FooterTitulo'>Minhas Redes</h3>
-    <div className='FooterRedesIcones FooterLinkArea'>
-      <span><Link className='Link' to='https://github.com/Rauatorres' target='_blank'><FontAwesomeIcon icon={faGithub} /></Link></span>
-      <span><Link className='Link' to='https://www.linkedin.com/in/rauatorres/' target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /></Link></span>
+  <div className='FooterBox FooterLinks'>
+    <h3 className='FooterTitulo'>Ir Para</h3>
+    <div className='FooterSiteLinks'>
+      <Link className='FooterLink FooterSiteLink' to='https://meu-site-client.onrender.com/'>Home</Link>
+      <Link className='FooterLink FooterSiteLink' to='https://meu-site-client.onrender.com/sobre'>Sobre Mim</Link>
+      <Link className='FooterLink FooterSiteLink' to='https://meu-site-client.onrender.com/projetos'>Projetos</Link>
     </div>
   </div>
-  <div className='FooterContato'>
-    <h3 className='FooterTitulo'>Contato</h3>
-    <span className='FooterLinkArea'><Link to='/contato' className='Link FooterLinkContato'><FontAwesomeIcon icon={faEnvelope}/> Envie Sua Mensagem</Link></span>
+  <div className='FooterBox FooterRedes'>
+    <h3 className='FooterTitulo'>Minhas Redes</h3>
+    <div className='FooterRedesLinks'>
+      <span><Link className='FooterLink FooterRedeLink' to='https://github.com/Rauatorres' target='_blank'><FontAwesomeIcon icon={faGithub} /></Link></span>
+      <span><Link className='FooterLink FooterRedeLink' to='https://www.linkedin.com/in/rauatorres/' target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /></Link></span>
+    </div>
   </div>
-  <div className='FooterCreditos'>
-    <div className='TextoCreditos'>Site Criado por <strong>Rauã Torres</strong></div>
+  <div className='FooterBox FooterCreditos'>
+    <h3 className='FooterTitulo'>Criado por</h3>
+    <div className='TextoCreditos'>Rauã Torres &copy;</div>
   </div>
 </footer>
