@@ -90,6 +90,9 @@ footer{
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
+.FooterLink:hover{
+  color: white;
+}
 
 .FooterSiteLinks, .FooterRedesLinks{
   margin-top: 1rem;
@@ -109,4 +112,32 @@ footer{
 
 .TextoCreditos{
   font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 576px) {
+  footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+  }
+}
+@media (min-width: 768px) {
+  footer{
+    padding: 0 5rem;
+  }
+}
+@media (min-width: 992px) {
+  .FooterTitulo{
+    font-size: 2rem;
+  }
+  .FooterSiteLink{
+    font-size: 1.5rem;
+  }
+  .FooterRedeLink{
+    font-size: 1.6rem;
+  }
+  .TextoCreditos{
+    font-size: 1.3rem;
+  }
 }

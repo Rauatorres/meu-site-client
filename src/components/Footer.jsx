@@ -12,9 +12,9 @@ export default props=>
   <div className='FooterBox FooterLinks'>
     <h3 className='FooterTitulo'>Ir Para</h3>
     <div className='FooterSiteLinks'>
-      <Link className='FooterLink FooterSiteLink' to='https://meu-site-client.onrender.com/'>Home</Link>
-      <Link className='FooterLink FooterSiteLink' to='https://meu-site-client.onrender.com/sobre'>Sobre Mim</Link>
-      <Link className='FooterLink FooterSiteLink' to='https://meu-site-client.onrender.com/projetos'>Projetos</Link>
+      <Link className='FooterLink FooterSiteLink' to='/'>Home</Link>
+      <Link className='FooterLink FooterSiteLink' to='/sobre'>Sobre Mim</Link>
+      <Link className='FooterLink FooterSiteLink' to='/projetos'>Projetos</Link>
     </div>
   </div>
   <div className='FooterBox FooterRedes'>
