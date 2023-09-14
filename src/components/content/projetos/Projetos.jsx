@@ -12,6 +12,7 @@ export default props=> {
   const [classe, setClasse] = useState(null)
 
   useEffect(() => {
+    console.log('teste atualização')
     const fetchProjetos = async () => {
       try {
         //correção
