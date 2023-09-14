@@ -12,8 +12,8 @@
 }
 
 .SobreMinhaFoto{
-    width: 70vw;
-    height: 40vw;
+    width: 80vw;
+    height: 140vw;
     margin: auto;
     background-color: grey;
 }
@@ -40,26 +40,26 @@ strong{
         width: 30vw;
     }
     .SobreMinhaFoto{
-        height: 17vw;
+        width: 30vw;
+        height: 45vw;
     }
     .SobreApresentacaoDescricao{
         margin: auto;
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 }
-@media (min-width: 668px) {
+@media (min-width: 768px) {
     .SobreApresentacaoDescricao{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 }
 @media (min-width: 992px){
     .SobreApresentacaoDescricao{
-        width: 35vw;
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
 }
 @media (min-width: 1200px){
     .SobreApresentacaoDescricao{
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
 }
