@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Spinner } from 'react-bootstrap'
 import Projeto from './Projeto'
 import ProjetoMiniatura from './ProjetoMiniatura'
 import axios from 'axios'
@@ -37,6 +37,30 @@ export default props=> {
             classe={classe}
             />
         )
+    }else{
+      return(
+        <Spinner className='ProjetosProjetoSpinner' animation='border' role='status'/>
+      )
+    }
+  }
+
+  function mostrarProjetosMiniatura(){
+    if(projetos.length > 0){
+      return projetos.map((projeto, index) => {
+          return(
+            <ProjetoMiniatura
+                key={projeto._id}
+                img={projeto.img}
+                titulo={projeto.titulo}
+                click={() => projetoTransicao(index)}
+            />
+          )
+        }
+      )
+    }else{
+      return(
+        <Spinner className='ProjetosProjetoMiniaturaSpinner' animation='border' role='status' />
+      )
     }
   }
 
@@ -57,14 +81,7 @@ export default props=> {
             {mostrarProjeto()}
         </Container>
         <Container className="mt-4 ProjetosSelecaoArea">
-            {projetos.map((projeto, index) => (
-            <ProjetoMiniatura
-                key={projeto._id}
-                img={projeto.img}
-                titulo={projeto.titulo}
-                click={() => projetoTransicao(index)}
-            />
-            ))}
+            {mostrarProjetosMiniatura( )} 
         </Container>
     </section>
   )

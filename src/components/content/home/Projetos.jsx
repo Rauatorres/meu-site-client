@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Button, Container, Row, Col } from 'react-bootstrap'
+import { Button, Container, Row, Col, Spinner } from 'react-bootstrap'
 import IconeSecao from './IconeSecao'
 // import ProjetoSelecao from './ProjetoSelecao'
 import ProjetosImg from './ProjetosImg'
@@ -36,6 +36,10 @@ export default props=>{
             return (
                 <Projeto key={projetosLista[projetoSelecionado]._id} titulo={projetosLista[projetoSelecionado].titulo} desc={projetosLista[projetoSelecionado].descricao} img={projetosLista[projetoSelecionado].img} classe={projetosClasse}/>
             )
+        }else{
+            return(
+                <Spinner className='ProjetoSpinner' animation='border' role='status' />
+            )
         }
     }
 
@@ -64,6 +68,10 @@ export default props=>{
                     <ProjetosImg key={projeto._id} img={projeto.img} selecionado={projetoSelecionado == index ? true : false} selecionar={projetoTransicao} numProjeto={index} classe={projetosClasse} classeScroll={'HomeProjetoImgDiv' + projetosClasseScroll + ' '}/>
                 )
             })
+        }else{
+            return (
+                <Spinner className='ProjetosImgSpinner' animation='border' role='status' />
+            )
         }
     }
 
@@ -72,7 +80,6 @@ export default props=>{
         if(projetosLista.length > 0){
             return projetosLista.map((projeto, index)=>{
                 if (index == projetoSelecionado){
-                    console.log('teste')
                     return (
                         <div key={projeto._id} className='HomeProjetosSeletor HomeProjetosSeletorSelecionado'></div>
                     )

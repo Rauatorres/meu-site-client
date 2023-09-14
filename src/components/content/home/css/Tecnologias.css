@@ -206,6 +206,11 @@
     background: linear-gradient(#C00E02, #AF0B00);
     height: 200px;
 }
+
+.TecnologiasSpinner{
+    display: block;
+    margin: 1rem auto;
+}
 @media (min-width: 576px) {
     .HomeTecnologiasSecaoTitulo{
         margin: 4rem auto;

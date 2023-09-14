@@ -2,6 +2,7 @@
     background-image: linear-gradient(#393939, #040404);
     padding: 0.1px 0;
     color: white;
+    min-height: 100vh;
 }
 
 .ProjetosSecaoTitulo{
@@ -96,6 +97,21 @@
     font-size: 0.8rem;
     height: fit-content;
     max-width: 30vw;
+}
+
+.ProjetosProjetoSpinner, .ProjetosProjetoMiniaturaSpinner{
+    display: block;
+    margin: 5rem auto;
+} 
+.ProjetosProjetoSpinner{
+    width: 10rem;
+    height: 10rem;
+    border-width: 0.8rem;
+}
+.ProjetosProjetoMiniaturaSpinner{
+    width: 7rem;
+    height: 7rem;
+    border-width: 0.5rem;
 }
 
 @media (min-width: 576px) {
@@ -196,6 +212,7 @@
     .ProjetosSelecaoArea{
         width: 60vw;
         height: 20rem;
+        margin-bottom: 10rem;
     }
     .ProjetoMiniaturaImg{
         width: 20vw;

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import { Row, Col, Container, OverlayTrigger, Tooltip } from 'react-bootstrap'
+import { Row, Col, Container, OverlayTrigger, Tooltip, Spinner } from 'react-bootstrap'
 import Tecnologia from './Tecnologia'
 import TecnologiaAreaTipo from './TecnologiaAreaTipo'
 import IconeSecao from './IconeSecao'
@@ -32,6 +32,10 @@ export default props=>{
                     )
                 }
             })
+        }else{
+            return (
+                <Spinner className='TecnologiasSpinner' animation='border' role='status' />
+            )
         }
     }
 
