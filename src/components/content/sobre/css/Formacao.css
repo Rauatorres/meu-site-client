@@ -19,8 +19,9 @@
     margin: 10rem auto;
     padding-bottom: 2rem;
     box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.313);
-    
+    color: white;
 }
+
 .FormacaoCardIcone{
     font-size: 3rem;
     background-image: linear-gradient(#FF5252, #DC2727);
@@ -38,7 +39,7 @@
     text-align: center;
     font-size: 1.7rem;
     font-weight: 400;
-    color: white;
+    /* color: white; */
 }
 
 .FormacaoAcademicaTituloGraduacao{
