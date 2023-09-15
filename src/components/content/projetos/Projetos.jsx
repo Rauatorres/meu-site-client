@@ -12,7 +12,6 @@ export default props=> {
   const [classe, setClasse] = useState(null)
 
   useEffect(() => {
-    console.log('teste atualização')
     const fetchProjetos = async () => {
       try {
         //correção
@@ -54,6 +53,7 @@ export default props=> {
                 img={projeto.img}
                 titulo={projeto.titulo}
                 click={() => projetoTransicao(index)}
+                classe={index == projetoSelecionado ? 'ProjetoMiniaturaSelecionado' : null}
             />
           )
         }

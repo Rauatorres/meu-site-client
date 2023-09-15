@@ -9,7 +9,7 @@
 }
 .ContatoTitulo, .ContatoOpcoesTitulo{
     width: fit-content;
-    margin: 5rem auto;
+    margin: 7rem auto;
     text-align: center;
 }
 
@@ -124,7 +124,7 @@
 
 @media (min-width: 576px) {
     .ContatoTitulo{
-        font-size: 4rem;
+        /* font-size: 4rem; */
     }
 
     .ContatoFormulario{
@@ -133,7 +133,7 @@
 
     .ContatoOpcoesTitulo{
         margin: 1rem auto;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     .ContatoOpcoesIconeGrandeArea{
         padding: 1rem 1.5rem;
@@ -204,7 +204,7 @@
     }
 
     .ContatoOpcoesTitulo{
-        font-size: 2.4rem;
+        /* font-size: 2.4rem; */
     }
     .ContatoOpcoesIconeGrandeArea{
         padding: 1.7rem 2.4rem;

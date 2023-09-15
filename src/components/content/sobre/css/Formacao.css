@@ -12,11 +12,14 @@
     max-width: 70vw;
     text-align: center;
 }
+.FormacaoArea{
+    margin: 10rem 0;
+}
 .FormacaoCard{
     background-color: #9e9e9e4a;
     width: 70vw;
     border-radius: 1rem;
-    margin: 10rem auto;
+    margin: 3rem auto;
     padding-bottom: 2rem;
     box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.313);
     color: white;
