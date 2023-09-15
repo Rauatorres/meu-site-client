@@ -2,7 +2,7 @@ import React from 'react'
 import { Form, Row, Col, Button } from 'react-bootstrap'
 
 export default props=>
-<Form className='ContatoFormulario'>
+<Form className='ContatoFormulario' action='mailto:rauatorres@gmail.com' method='post'>
     <Form.Group className='FormRow'>
         <Form.Control className='FormInput' id='nome' type='text' name='nome' placeholder='Nome' size='sm'/>
     </Form.Group>
