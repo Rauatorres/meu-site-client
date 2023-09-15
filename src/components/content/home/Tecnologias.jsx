@@ -24,7 +24,7 @@ export default props=>{
     }, [])
 
     function exibirTecnologias(tipo){
-        if(listaTecnologias != undefined){
+        if(listaTecnologias.length > 0){
             return listaTecnologias.map((tecnologia, index)=>{
                 if(tipo == tecnologia.tipo){
                     return (
