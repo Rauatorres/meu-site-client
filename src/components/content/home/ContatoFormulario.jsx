@@ -11,7 +11,7 @@ export default props=>{
 
     async function submitEmail(e) {
         e.preventDefault()
-        const response = await fetch('https://meu-site-client.onrender.com/sendemail', {
+        const response = await fetch('https://meu-site-client.onrender.com:10000/sendemail', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
