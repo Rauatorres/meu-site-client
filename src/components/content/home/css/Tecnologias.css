@@ -172,8 +172,8 @@
     margin: auto;
     color: rgba(255, 255, 255, 0.6);
 }
-.TecnologiasPalavraDeslize{
-    /* margin: 0 1rem; */
+.TecnologiasIconeRolagem{
+    margin-left: 1rem;
     /* background-color: red; */
 }
 .TecnologiasAreaDeslizeVertical{
@@ -258,7 +258,8 @@
         font-size: 1rem;
     }
     .TecnologiasAreaDeslize{
-        font-size: 0.7rem;
+        width: 20vw;
+        font-size: 1rem;
     }
 }
 @media (min-width: 768px) {
@@ -287,7 +288,10 @@
         display: none;
     }
     .TecnologiasAreaDeslizeVertical{
-        display: block;
+        display: flex;
+        width: 10vw;
+        justify-content: left;
+        align-items: center;
     }
     .TecnologiasArea{
         display: block;

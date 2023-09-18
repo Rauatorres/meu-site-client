@@ -14,7 +14,7 @@ export default props=>
         <FontAwesomeIcon icon={faAnglesRight}/>
     </div>
     <div className='TecnologiasAreaDeslizeVertical'>
-        <span className='TecnologiasPalavraDeslize'>Rolagem</span> 
-        <FontAwesomeIcon icon={faSort}/>
+        <span className='TecnologiasPalavraRolagem'>Rolagem</span> 
+        <FontAwesomeIcon icon={faSort} className='TecnologiasIconeRolagem'/>
     </div>
 </div>
