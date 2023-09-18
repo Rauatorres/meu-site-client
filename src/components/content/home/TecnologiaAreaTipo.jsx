@@ -10,9 +10,7 @@ export default props=>
     </div>
     <div className='TecnologiasAreaDeslize'>
         <FontAwesomeIcon icon={faAnglesLeft}/>
-        <FontAwesomeIcon icon={faAnglesLeft}/>
         <span className='TecnologiasPalavraDeslize'>Deslize</span> 
-        <FontAwesomeIcon icon={faAnglesRight}/>
         <FontAwesomeIcon icon={faAnglesRight}/>
     </div>
     <div className='TecnologiasAreaDeslizeVertical'>
