@@ -75,15 +75,15 @@
     overflow: auto;
     background-color: rgba(255, 255, 255, 0.117);
     margin: 3rem auto;
-    padding: 0.1px 2rem;
+    padding: 0.1px 0.5rem;
     border-radius: 0.7rem;
 }
 .ProjetoMiniatura{
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0.5rem auto;
     width: 100%;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     border-radius: 1.2rem;
     transition: background-color 0.2s;
 }
@@ -162,6 +162,10 @@
         width: 70vw;
         height: 12rem;
         margin-top: 0 !important;
+        padding: 0.1px 1rem;
+    }
+    .ProjetoMiniatura{
+        margin: 1rem auto;
     }
     .ProjetoMiniaturaImg{
         width: 25vw;
@@ -198,9 +202,11 @@
     }
     .ProjetosSelecaoArea{
         height: 15rem;
+        padding: 0.1px 2rem;
+
     }
     .ProjetoMiniatura{
-        margin: 3rem auto;
+        margin: 2rem auto;
     }
     .ProjetoMiniaturaTitulo{
         font-size: 1.2rem;
