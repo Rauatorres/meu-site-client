@@ -6,6 +6,37 @@
 }
 .navbar-brand{
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 30vw;
+}
+.TituloSiteArea{
+  margin: 0 0.7rem;
+  /* background-color: blue; */
+}
+.MiniFoto, .TituloSiteArea{
+  margin: 0 1rem;
+}
+.MiniFoto{
+  width: 2.7rem;
+  height: 2.7rem;
+  background-color: #5b5b5b;
+  border-radius: 2rem;
+}
+.TituloSite, .SubtituloSite{
+  /* background-color: green; */
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.TituloSite{
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+.SubtituloSite{
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
 }
 .MenuButton{
   border: none;

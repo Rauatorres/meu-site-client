@@ -9,7 +9,13 @@ export default props =>{
   return (
     <Navbar expand='sm' className={"Navbar " + navClasse} variant='dark'>
       <Container className='NavbarContainer'>
-        <Navbar.Brand>Logo</Navbar.Brand>
+        <Navbar.Brand>
+          <div className='MiniFoto'></div>
+          <div className='TituloSiteArea'>
+            <h1 className='TituloSite'>RAUÃ TORRES</h1>
+            <h2 className='SubtituloSite'>web developer</h2>
+          </div>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls='navbar' className='MenuButton'/>
         <Navbar.Collapse id='navbar'>
           <Nav className='justify-content-end' style={{width: "100%"}}>
